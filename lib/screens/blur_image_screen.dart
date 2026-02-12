@@ -23,7 +23,7 @@ class BlurImageScreen extends StatelessWidget {
           BackdropFilter(
             filter: ImageFilter.blur(sigmaX: 10.0, sigmaY: 10.0),
             child: Container(
-              color: const Color.fromARGB(139, 187, 16, 16),
+              color: Colors.transparent,
             ),
           ),
         ],

@@ -1,6 +1,7 @@
 # BackdropFilter Demo
 
-This is a Flutter demo application demonstrating the **BackdropFilter** widget which is usually used to apply blur effects to the content behind a certain widget.
+This is a Flutter demo application that demonstrates the **BackdropFilter** widget, which is typically used to apply a blur effect to the content behind a certain widget.
+![image alt](https://github.com/hd77alu/flutter_demo_backdrop/blob/271cda7bda534d2c69a71aa96b23121b7333e74d/images/backdrop-allSC.png)
 
 ## How to Run
 

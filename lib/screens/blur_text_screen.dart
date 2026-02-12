@@ -10,10 +10,12 @@ class BlurTextScreen extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Blur Text Container'),
       ),
+      // Text container with blurred background
       body: Container(
         color: Colors.black,
         child: Center(
-          
+          // Clipreact to prevent blur from affecting outside the container
+          child: ClipRect(
             child: BackdropFilter(
               filter: ImageFilter.blur(sigmaX: 10.0, sigmaY: 10.0),
               child: Container(
@@ -25,7 +27,7 @@ class BlurTextScreen extends StatelessWidget {
                 ),
               ),
             ),
-        
+          ),
         ),
       ),
     );
